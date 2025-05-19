@@ -188,9 +188,11 @@ const GameScreen = () => {
         </div>
       </main>
       {/* Footer (outside main content box) */}
-      <footer className="text-xs text-[#6B7280] dark:text-[#9CA3AF] text-center py-4 px-2">
-        © 2025 Sumthing | All rights reserved | Sumthing is an independent game inspired by classic math puzzles.
+      <footer className="text-xs text-[#6B7280] dark:text-[#9CA3AF] text-center py-4 px-2 space-y-1">
+      <div>© 2025 Sumthing | All rights reserved | A General Milz Media production</div>
+      <div>Sumthing is an independent game inspired by classic math puzzles.</div>
       </footer>
+
     </div>
   );
 };
