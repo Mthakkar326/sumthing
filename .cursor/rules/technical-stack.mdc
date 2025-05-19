@@ -1,0 +1,13 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Technical Stack
+
+React for the frontend
+⁠Tailwind CSS for styling
+⁠Node.js + Express for the backend (optional, only if storing user data)
+⁠PostgreSQL via Supabase for the database
+⁠Separate databases for dev, test, and prod
+⁠Jest and React Testing Library for tests
