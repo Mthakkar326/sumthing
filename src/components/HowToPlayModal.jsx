@@ -48,7 +48,6 @@ const HowToPlayModal = () => {
                   How To Play
                 </h2>
                 <div className="text-[#111827] dark:text-[#E5E7EB] text-sm space-y-3">
-                <p>This is a game for all you math nerds out there.</p>
                 <p>Your goal is to make an equation with all five number cards that equals the target card.</p>
                 <ul className="list-disc list-inside space-y-1">
                     <li>You must use all five number cards.</li>
