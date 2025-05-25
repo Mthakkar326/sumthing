@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Card from './Card';
 import ExpressionInput from './ExpressionInput';
-import { Delete, RefreshCw } from 'lucide-react';
+import { RefreshCw } from 'lucide-react';
 import SuccessModal from './SuccessModal';
 import { validateExpression } from '../utils/validateExpression';
 import { shuffleDeck } from '../utils/shuffleDeck';
@@ -151,7 +151,7 @@ const GameScreen = () => {
           <div className="flex justify-between items-center w-[330px] gap-6">
             {/* Delete */}
             <button
-              onClick={() => setExpression('')}
+              onClick={() => setExpression(expression.slice(0, -1))}
               className="flex-1 py-3 rounded-full font-medium text-base bg-white dark:bg-[#1C1C1E] text-[#121212] dark:text-[#E5E7EB] border border-[#E7E7E7] dark:border-[#38383F] hover:border-[#FACC15] hover:text-[#FACC15] transition-colors select-none cursor-pointer"
               type="button"
             >
