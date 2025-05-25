@@ -54,9 +54,9 @@ const HowToPlayModal = () => {
                     <li>You must use all five number cards.</li>
                     <li>Each number can only be used once.</li>
                     <li>You can use +, −, ×, ÷ and parentheses.</li>
+                    <li>Operators can be used as multiple times.</li>
                     <li>Don't forget about order of operations.</li>
-                    <li>Mental math only. No calculators allowed.</li>
-                    <li>No combining digits (e.g., turning 2 and 3 into 23).</li>
+                    <li>No combining digits (turning 2 and 3 into 23).</li>
                 </ul>
                 <p>When your equation is valid and equals the target, YOU WIN!</p>
                 </div>
